@@ -11,7 +11,6 @@
     max-width: 1440px;
     margin: 0 auto;
     width: 100%;
-
 }
 
 .background_1 {
@@ -20,16 +19,18 @@
     position: absolute;
     background-repeat: no-repeat;
     margin-left: -85px;
-    margin-top: 110px;
+    margin-top: 99px;
 }
+
 .background_2 {
     position: absolute;
     background-repeat: no-repeat;
     width:560px;
     height: 600px;
     margin-left: -160px;
-    margin-top: -24px;
+    margin-top: -35px;
 }
+
 .background_3 {
     position: absolute;
     width: 344px;
@@ -38,6 +39,7 @@
     margin-left: -52px;
     margin-top: -24px;
 }
+
 .background_4 {
     position: absolute;
     width: 344px;
@@ -46,6 +48,7 @@
     margin-left: -52px;
     margin-top: -24px;
 }
+
 .background_5 {
     position: absolute;
     width: 344px;
@@ -53,6 +56,14 @@
     background-repeat: no-repeat;
     margin-left: -52px;
     margin-top: -24px;
+}
+
+.background_6{
+    position: absolute;
+    width: 69px;
+    height: 76px;
+    background-repeat: no-repeat;
+    margin-top: 82px;
 }
 
 .Header{
@@ -64,9 +75,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-
 }
+
 .Box_nav {
     max-width: 1440px; 
     width: 100%; 
@@ -82,9 +92,6 @@
     background-color: #fff;
     color: #fff;
     width: 100%;
-
-
-
 } 
 
  main {
@@ -96,17 +103,17 @@
     position: relative;
 
 }
+
 .Nav_Header {   
     height: 100%;
     display: flex;
-
 }
 
 .Nav {
-
     height:100%;
     display: flex;
 }
+
 .Nav_Header_p1{
     display: block;
     display: flex;
@@ -115,7 +122,6 @@
     height: 100%;
     list-style-type: none;
     padding-right: 47px;
-    
 }
 
 .Nav_Header_p2 {
@@ -129,30 +135,30 @@
 }
 
  .Nav_Header_stale_1{
-
     margin: 0 10px 0 10px;
     color: black;
     font-family: 'Rubik', sans-serif;
     text-decoration: none; 
     font-size: 16px;
 }
+
 a:hover {
     color: #FF7939;}
 
 .Nav_Header_stale_2{
-
     margin: 0 ;
     color: black;
     font-family: 'Rubik', sans-serif;
     text-decoration: none; 
     font-size: 16px;
 }
+
 .btn_box_header{
     display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
 .Btn_header {
     width: 138px;
     height: 50px;
@@ -173,23 +179,19 @@ a:hover {
     height: 25px;
 }
 
-
 .Box_hero {
     max-width: 1440px; 
     width: 100%; 
     margin: 0 auto;
-
 }
 
-
 .Box_hero_flex {
-display: flex;
-
+    display: flex;
 }
 
  .Box_hero_text {
     width: 100%; 
-    margin-top: 181px;
+    margin-top: 170px;
 } 
 
 .Text_1 { 
@@ -203,7 +205,6 @@ display: flex;
 }
 
 .Text_2 {
-
     margin-top: 30px;
     font-family: 'Rubik';
     font-style: normal;
@@ -213,44 +214,15 @@ display: flex;
     font-size: 16px;
     line-height: 27px;
     position: relative;
-    
-}
-
-.Box_hero_image {
-    /* position: relative; */
-    /* width: 100%;
-    height: 100%; */
 }
 
 .flex_1 img{
     float: right;
-    margin-top: 357px;
+    margin-top: 346px;
     width: 611px;
     height: 615px;
-    /* size: 100px; */
-    /* float: left;
-    /* position: absolute;
-    z-index: 100; */
-    
-
 }
 
-/*
-.flex_5 img{
-    margin-left: 850px;
-    /* margin-bottom: 200px; *//*
-    transform: translate(-40px,-625px);
-    width: 63%;
-
-}
-
-.flex_6 img{
-    margin-left: 850px;
-    /* margin-bottom: 200px; *//*
-    transform: translate(75px,-980px);
-    width: 50%;
-}
-*/
 .button_hero {
     color: white;
     font-family: 'Rubik', sans-serif;
@@ -266,26 +238,20 @@ display: flex;
     height: 50px;
     position: relative;
     cursor: pointer;
-
-
 }
 
  .button_hero svg{
-    
     display: inline-block;
     vertical-align: middle;
     fill: #fff;
     width: 22px;
     height: 22px;
-    margin-left: 15px;
-    
+    margin-left: 15px; 
 }
 
 .Box_hero_btn_down {
     position: relative;
     width: 100%;
-    
-
 }
 
 .button_hero_down{
@@ -294,53 +260,31 @@ display: flex;
     position: absolute;
     z-index: 100;
     float: left;
-    top: 100px;
+    top: 110px;
     margin-left: 21.5px;
     cursor: pointer;
 }
 
 .button_hero_down svg {
     vertical-align: middle;
-    /* fill: none; */
     width: 25px;
     height: 25px;
 }
-
-/*
-
-
-.flex_4 img{
-    position: relative;
-    margin-left: 143px;
-    transform: translate(6px,-1075px);
-    width:47px; 
-
-}
-
-.SpecialSymbol {
-    color: black;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    margin-left: 10px;
-} */
 
 .Box_About {
     max-width: 1440px; 
     width: 100%; 
     margin: 0 auto;
-
 }
 
 .Box_About_flex {
     display: flex;
-
 }
 
 .Box_About_text {
     width: 100%;
     margin-top: 100px;
 }
-
 
 .Text_About_1 {
     font-family: 'Rubik';
@@ -362,7 +306,6 @@ display: flex;
 }
 
 .Text_About_3 {
-
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
@@ -383,10 +326,9 @@ display: flex;
     width: 404px;
     height: 141px;
     margin-bottom: 40px;
-
 }
-.button_about {
 
+.button_about {
     color: white;
     font-family: 'Rubik';
     font-style: normal;
@@ -404,7 +346,6 @@ display: flex;
 }
 
 .button_about svg {
-
     display: inline-block;
     vertical-align: middle;
     fill: #fff;
@@ -417,7 +358,6 @@ display: flex;
     max-width: 1440px; 
     width: 100%; 
     margin: 0 auto;
-
 }
 
 .Box_Advantages_flex {
@@ -439,18 +379,10 @@ display: flex;
 
 .Box_Advantages_TextCommon_1 {
     margin-top: 71px;
-    /* width: 604px;
-    height: 178px; */
     display: flex;
     justify-content: space-between;
 
 }
-
-/* .Box_Advantages_text_1{
-    width: 255px;
-    height: 178px;
-
-} */
 
 .flex_advanteges {
     display: flex;
@@ -462,12 +394,8 @@ display: flex;
 }
 
 .icons_advantages_1 {
-
     margin-right: 10px;
     margin-bottom: 10px;
-
-}
-.icons_advantages_1 img{
 
 }
 
@@ -481,24 +409,19 @@ display: flex;
     align-items: flex-end;
     margin-bottom: 5px;
     white-space: pre;
-
 }
 
 .Text_Advantages_3 {
-
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 170%;
     white-space: pre;
-
 }
 
 
 .Box_Advantages_text_2{
-    /* width: 260px;
-    height: 159px; */
     margin-left: 100px;
 }
 
@@ -517,7 +440,6 @@ display: flex;
 }
 
 .Text_Advantages_5 {
-
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
@@ -528,11 +450,8 @@ display: flex;
 
 .Box_Advantages_TextCommon_2 {
     margin-top: 87px;
-    /* width: 604px;
-    height: 178px; */
     display: flex;
     justify-content: space-between;
-
 }
 
 .image_2_advantage {
@@ -558,12 +477,10 @@ display: flex;
     font-weight: 700;
     font-size: 62px;
     line-height: 73px;
-
 }
 
 .Box_Courses_tetx_1 {
     margin-top: 44px;
-
 }
 
 .Text_Courses_2 {
@@ -614,19 +531,16 @@ display: flex;
 }
 
 .Box_Courses_tetx_2 {
-    /* margin: 100%; */
     margin-left: 128px;
 
 }
 
 .Box_Courses_tetx_3 {
-    /* margin: 100%; */
     margin-left: 100px;
 
 }
 
 .Box_Courses_tetx_4 {
-    /* margin: 100%; */
     margin-left: 100px;
 
 }
@@ -639,6 +553,7 @@ display: flex;
     line-height: 170%;
     text-align: center;
 }
+
 .Text_Courses_5 {
     font-family: 'Rubik';
     font-style: normal;
@@ -647,7 +562,6 @@ display: flex;
     line-height: 170%;
     white-space: pre;
     text-align: center;
-
 }
 
 .Box_Course_img img{
@@ -661,11 +575,9 @@ display: flex;
     margin: 0 auto;
 }
 
-
 .Box_Reviews_flex{
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .Box_Reviews_text{
@@ -676,10 +588,10 @@ display: flex;
 
 .Text_Reviews_1 {
     font-family: 'Rubik';
-font-style: normal;
-font-weight: 700;
-font-size: 62px;
-line-height: 73px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 73px;
 }
 
 .Text_Reviews_2 {
@@ -688,8 +600,6 @@ line-height: 73px;
     font-weight: 300;
     font-size: 16px;
     line-height: 170%;
-    /* or 27px */
-    
     text-align: center;
     white-space: pre;
     margin-top: 27px;
@@ -702,15 +612,12 @@ line-height: 73px;
     font-weight: 700;
     font-size: 20px;
     line-height: 170%;
-    /* or 34px */
-    
     text-align: center;
     margin-top: 19px;
     margin-left: 10px;
 }
 
 .img_Reviews img{
-
     display: block;
     margin: auto;
     position: relative;
@@ -723,11 +630,12 @@ line-height: 73px;
     background-repeat: no-repeat;
     margin-left: 117px;
     margin-top: 125px;
-
 }
+
 footer {
     background-color: rgba(255, 121, 57, 0.2);
 }
+
 .Footer {
     max-width: 1440px;
     margin: 0 auto;
@@ -737,7 +645,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .Text_footer_1 {
@@ -756,7 +663,6 @@ footer {
     font-size: 16px;
     line-height: 170%;
     text-align: center;
-
 }
 
 .Footer_flex {
@@ -781,8 +687,8 @@ footer {
     background: none;
     cursor: pointer;
 }
-.Btn_Fotter_3 {
 
+.Btn_Fotter_3 {
     background: none;
     cursor: pointer;
 }

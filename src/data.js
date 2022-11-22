@@ -1,7 +1,7 @@
 import HeroImg from './assets/img/hero/HeroImg.svg';
+import background_hero from './assets/img/hero/Vector_3.svg';
 import Vector_1 from './assets/img/app/Vector_1.svg';
 import Vector_2 from './assets/img/app/Vector_2.svg';
-
 import Vector_6 from './assets/img/header/login account enter door.png';
 import logo from './assets/img/header/logo.svg';
 import AboutImg_1 from './assets/img/about/Img.svg';
@@ -39,8 +39,7 @@ export const hero = {
     'On the other hand, we denounce with righteous indignation and dislike men who are so \nbeguiled and demoralized by the charms of pleasure of the moment, so blinded by desire. \nThat they cannot foresee the pain and trouble that are bound to ensue: and equal blame \nbelongs to those who fail in their duty through weakness of will, which is the same as saying \nthrough shrinking from toil and pain.',
   btnText: 'Start with us',
   image: HeroImg,
-  image_background_1: Vector_1,
-  image_background_2: Vector_2,
+  image_background_1: background_hero,
 };
 export const nav_1 = [
   { name: 'About', href: '#about' },

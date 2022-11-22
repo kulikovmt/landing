@@ -8,22 +8,6 @@ import Courses from './components/Courses';
 import Reviews from './components/Reviews';
 import Footer from './components/Footer';
 
-// class App extends React.Component {
-// const ({image_background_1}) = hero
-//   render() {
-//     return (
-//       <div>
-//         const {image_background_1} = header;
-//         <div className="flex_2" style={{ backgroundImage: `url(${image_background_1})` }}></div>
-//         <Header />
-//         <main>
-//           <Hero />
-//         </main>
-//       </div>
-//     );
-//   }
-// }
-
 const App = () => {
   const { image_background_1, image_background_2 } = app;
   return (

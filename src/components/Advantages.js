@@ -78,13 +78,6 @@ const Advantages = () => {
             </div>
           </div>
         </div>
-        {/*<div className="Box_Advantages_image"></div> */}
-        {/* <div className="flex_5">
-          <img src={image_1} alt="" />
-        </div>
-        <div className="flex_6">
-          <img src={image_2} alt="" />
-        </div> */}
       </div>
     </section>
   );
